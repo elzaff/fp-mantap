@@ -1,0 +1,13 @@
+teleop_twist_joy:
+  ros__parameters:
+    enable_button: 0  # Tombol untuk mengaktifkan kontrol
+    axis_linear: 1    # Sumbu joystick untuk maju/mundur
+    axis_angular: 0   # Sumbu joystick untuk rotasi
+    scale_linear: 0.5  # Skala kecepatan linear
+    scale_angular: 1.0 # Skala kecepatan angular
+
+    # Konfigurasi tombol untuk kontrol arah
+    button_forward: 4  # Tombol untuk maju
+    button_back: 5     # Tombol untuk mundur
+    button_left: 6     # Tombol untuk belok kiri
+    button_right: 7    # Tombol untuk belok kanan
